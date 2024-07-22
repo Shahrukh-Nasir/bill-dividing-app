@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="bill-input">
+            <p>Bill</p>
+            <div class="input-container">
+                <span>
+                    Rs
+                </span>
+
+                <input id="inputvalue" type="number">
+            </div>
+            <p>Select Tip </p>
+            <div class="tip-container">
+               <button class="tip">5%</button>
+               <button  class="tip">10%</button>
+               <button  class="tip">15%</button>
+               <button  class="tip">25%</button>
+               <button  class="tip">50%</button>
+               <button  class="tip">75%</button>
+            </div>
+            <p class="customtip">
+                Custom Tip
+            </p>
+            <div class="custom-tip-container">
+                <input type="number" class="custom-tip" placeholder="Custom Tip">
+            </div>
+            <p>
+                Number of people
+            </p>
+            <div class="number-of-people-container">
+                <!-- <span>Rs</span> -->
+                <input type="number" id="number-ofpeople" class="custom-tip" placeholder="Number of People">
+            </div>
+            <button class="calculate-btn" disabled>Generate Bill</button>
+        </div>
+        <div class="bill-output">
+            <p class="Tip-amount">Tip Amount<span></span></p>
+            <p class="total-amount">Total Amount<span></span></p>
+            <p class="each-person-bill">Each Person Bill<span></span></p>
+            <button class="reset-button" disabled>Reset</button>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
